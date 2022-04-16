@@ -1,0 +1,269 @@
+#logo{
+    width:250px;
+    height: auto;
+    margin-top:10px;
+    top:0;
+    position:fixed;
+    margin-left:550px;
+    transition:1s;
+}
+
+#logo:hover{
+    scale:1.1;
+    opacity: 0.8;
+}
+/* ------------------------------------------------ YASUO STYLE -------------------------------------------------- */
+#yasuo{
+    padding:0;
+    animation-name:yasuo;
+    animation-duration: 2s;
+    width:540px;
+    height:600px;
+
+}
+
+@keyframes yasuo{
+    0%{
+        left:0;
+        opacity:0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#yasuo:hover{
+    scale:1.01;
+    transition: 1s;
+}
+
+
+/* ------------------------------------------------ FIM YASUO STYLE -------------------------------------------------- */
+/* ------------------------------------------------ SKILLS STYLE    -------------------------------------------------- */
+#skills{
+    width:auto;
+
+    background-image: linear-gradient(to top,#1F3140,#29455c,#56738C,#6386a5,#91B7D9); 
+    background-repeat:no-repeat;
+    
+    opacity: 0.9;
+    height:70px;
+    position:fixed;
+    bottom: 0;
+    right:0;
+    left: 0;
+    display:flex;
+    flex-direction: row;
+    bottom:0;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+#listaskills{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.imgskill1{
+    width: 50px;
+    margin-right:30px;
+    margin-left:30px;
+    border-radius: 3px 4px;
+    border-color:#fcfdfd;
+    border:4px;
+    margin-top:60px;
+    transition:1s;
+
+}
+
+.imgskill1:hover{
+    width:55px;
+    border:2px;
+    border-color:rgb(247, 247, 241);
+    border-style: solid;
+    box-shadow:0 10px 20px rgba(0,0,0,0.80), 0 6px 6px rgba(0,0,0,0.65);
+}
+#imgskill2:hover{
+    width:55px;
+    border:2px;
+    border-color:beige;
+    border-style: solid;
+    box-shadow:0 10px 20px rgba(0,0,0,0.80), 0 6px 6px rgba(0,0,0,0.65);
+}
+#imgskill3:hover{
+    width:55px;
+    border:2px;
+    border-color:beige;
+    border-style: solid;
+    box-shadow:0 10px 20px rgba(0,0,0,0.80), 0 6px 6px rgba(0,0,0,0.65);
+}
+#imgskill4:hover{
+    width:55px;
+    border:2px;
+    border-color:beige;
+    border-style: solid;
+    box-shadow:0 10px 20px rgba(0,0,0,0.80), 0 6px 6px rgba(0,0,0,0.65);
+}
+
+#p1 { 
+    background-color: #1F3140;
+    transform: translateY(-120px); 
+    opacity: 0;
+    padding:3px;
+    border-radius: 10px 20px;
+    border:1px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.10);
+    color:white;
+ 
+} 
+ 
+figure:hover #p1 { 
+    opacity: 1; 
+    transform: translateY(-120px); 
+    background-color: #1F3140;
+}
+
+
+
+
+
+#imgskill2{
+    width: 50px;
+    margin-right:30px;
+    margin-left:30px;
+    border-radius: 3px 4px;
+    border-color:#1F3140;
+    border:4px;
+    margin-top:60px;
+    transition:1s;
+
+}
+
+#p2 { 
+    background-color: #1F3140;
+    transform: translateY(-120px); 
+    opacity: 0; 
+    padding:3px;
+    border-radius: 10px 20px;
+    border:1px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.10);
+    color:white;
+ 
+} 
+ 
+figure:hover #p2 { 
+    opacity: 1; 
+    transform: translateY(-120px); 
+    background-color: #1F3140;
+}
+
+
+#imgskill3{
+    width: 50px;
+    margin-right:30px;
+    margin-left:30px;
+    border-radius: 3px 4px;
+    border-color:#1F3140;
+    border:4px;
+    margin-top:60px;
+    transition:1s;
+
+}
+
+#p3 { 
+    background-color: #1F3140;
+    transform: translateY(-120px); 
+    opacity: 0; 
+    padding:3px;
+    border-radius: 10px 20px;
+    border:1px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.10);
+    color:white;
+ 
+} 
+ 
+figure:hover #p3 { 
+    opacity: 1; 
+    transform: translateY(-120px); 
+    background-color: #1F3140;
+}
+
+
+#imgskill4{
+    width: 50px;
+    margin-right:30px;
+    margin-left:30px;
+    border-radius: 3px 4px;
+    border-color:#1F3140;
+    border:4px;
+    margin-top:60px;
+    transition:1s;
+
+}
+
+#p4 { 
+    background-color: #1F3140;
+    transform: translateY(-120px); 
+    opacity: 0; 
+    padding:3px;
+    border-radius: 10px 20px;
+    border:1px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.10);
+    color:white;
+ 
+} 
+ 
+figure:hover #p4 { 
+    opacity: 1; 
+    transform: translateY(-120px); 
+    background-color: #1F3140;
+}
+
+
+
+
+
+
+#skilltitulo{
+    color:antiquewhite;
+    border-radius: 10px 20px;
+    border-color:black;
+    border:2px;
+    background-color: rgb(35, 35, 51);
+    padding:20px;
+    opacity: 1;
+    margin-left:auto;
+    margin-right:auto;
+    width:160px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.6);
+    transition:1s;
+    
+}
+
+#skilltitulo:hover {
+    scale:1.1;
+    box-shadow:0 0 15px 4px rgba(0,0,0,1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------ FIM SKILLS STYLE    -------------------------------------------------- */
+
+#youtube{
+    float:right;
+    margin-top:130px;
+    margin-right:200px;
+}

@@ -1,0 +1,74 @@
+#logo{
+    width:250px;
+    height: auto;
+    margin-top:10px;
+    top:0;
+    margin-left:490px;
+    transition:1s;
+}
+
+#logo:hover{
+    scale:1.1;
+    opacity: 0.8;
+}
+
+/* -----------------------------------------------------porra do cartão -------------------------------------------- */
+#divisaoprimaria{
+    position: absolute;
+    transform: translate(-50%);
+    left:50%
+}
+
+
+.cartao {
+    height: 400px;
+    width: 400px;
+    perspective: 1000px;
+    border:2px;
+
+  }
+
+.cartao-container {
+    position: relative;
+    height: 100%;
+}
+
+.cartao-container {
+    position: relative;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+.cartao:hover .cartao-container {
+    transform: rotateY(180deg);
+}
+
+
+.cartao-front{
+    position: absolute;
+    width: 100%;
+    backface-visibility: hidden;
+    z-index:1;
+
+}
+
+.cartao-back{
+    position: absolute;
+    width: 150%;
+    backface-visibility: hidden;
+    z-index:1;
+}
+
+
+  
+.cartao-back {
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    
+
+}
+
+.imgs2{
+    width:500px;
+    height: 300px;
+}

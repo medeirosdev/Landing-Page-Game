@@ -1,0 +1,14 @@
+main{
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:0;
+    margin-bottom:0;
+    width:500px;
+    background-image:linear-gradient(to top,
+    #1A1E26,
+    #333944,
+    #7B848C,
+    #BABDBF
+    );
+    box-shadow:0 10px 20px rgba(0,0,0,0.80), 0 6px 6px rgba(0,0,0,0.65);
+}

@@ -71,3 +71,11 @@ box-shadow: 0 0 10px rgb(255, 255, 255);
 .ef-glow:hover{
     scale:1.05;
 }
+
+
+
+li{
+    font-family: monospace;
+    font-style: bold;
+    font-size: 20px;
+}

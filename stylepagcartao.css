@@ -5,6 +5,7 @@
     top:0;
     margin-left:490px;
     transition:1s;
+    padding:0;
 }
 
 #logo:hover{
@@ -16,7 +17,7 @@
 #divisaoprimaria{
     position: absolute;
     transform: translate(-50%);
-    left:50%
+    left:46%
 }
 
 
@@ -54,7 +55,7 @@
 
 .cartao-back{
     position: absolute;
-    width: 150%;
+    width: 125%;
     backface-visibility: hidden;
     z-index:1;
 }
@@ -71,4 +72,48 @@
 .imgs2{
     width:500px;
     height: 300px;
+}
+
+/* -----------------------------------------------------porra do cartão -------------------------------------------- */
+
+#titulo{
+    margin:4px;
+    padding:4px;
+    text-align: center;
+    left:50%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding:20px;
+    border:2px;
+    border-radius: 5px 15px;
+    background-image: linear-gradient(to right, #24BF93 , #20d4a1 , #ca9e1b);
+    margin-left:400px;
+    margin-right:400px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    transition: 1s;
+    margin-top:10px;
+}
+
+h1:hover{
+    scale:1.01;
+    box-shadow: 0 15px 25px rgba(0,0,0,1);
+}
+
+#pc{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding:20px;
+    border:2px;
+    border-radius: 5px 15px;
+    background-image: linear-gradient(to right, #24BF93 , #20d4a1 , #ca9e1b);
+    margin-left:500px;
+    margin-right:500px;
+
 }

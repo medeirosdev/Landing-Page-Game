@@ -59,7 +59,11 @@ nav {
     margin-left: 32px;
 }
 /* fim do Menu de Nav --------------------------------------------------------------------------- */
+#ah1{
+    text-decoration: none;
+    color:white;
 
+}
 
 
 
@@ -79,6 +83,8 @@ nav {
     scale:1.1;
     opacity: 0.8;
 }
+
+
 
 
 /* -------------------------------------------------- SLIDER -------------------------------------------------------*/
@@ -175,12 +181,13 @@ input{
 h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    opacity: 0.8;
+    background-color: rgb(48, 48, 48);
     border: 2px;
-    border-color: white;
+    border-color: #25b96f;
+    border-style: solid;
     border-radius: 10px 25px;
     padding:10px;
+    color:white;
     margin-left:400px;
     margin-right:400px;
 }
@@ -199,7 +206,7 @@ h1{
     margin-left: 400px;
     margin-right:400px;
     padding:20px;
-    border-color: rgb(230, 255, 6);
+    border-color: #25b96f;
     border-radius: 3px 4px;
     border:2px;
 
@@ -250,7 +257,7 @@ h1{
     font-family: "montserrat";
     text-decoration: none;
     margin: 30px 0;
-    border: 2px solid #d9e70e;
+    border: 2px solid #25b96f;
     padding: 15px 60px;
     overflow: hidden;
     transition: 1s all ease;
@@ -259,7 +266,7 @@ h1{
 }
 
 .btn::before{
-    background: #717272;
+    background: #71ecb9;
     color:rgb(0, 0, 0);
     content: "";
     position: absolute;
@@ -280,7 +287,31 @@ h1{
   }
 
 
-  a{
+  .abordao{
       text-decoration: none;
-      color:rgb(255, 255, 255);
+      color:white;
+  }
+
+  .abordao:hover{
+      color:black;
+  }
+
+
+  #divisao{
+      display:flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      
+  }
+
+
+  #blogimg{
+      width:500px;
+      height: 500px;
+      margin:30px;
+      transition:0.7s
+  }
+
+  #blogimg:hover{
+      scale:1.01;
   }
